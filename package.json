@@ -1,8 +1,13 @@
 {
+	"name": "@rx1310/grid-v3",
+	"version": "3.4.1",
+	"description": "Мощная система гибких сеток из Bootstrap 3 для мобильных устройств, для удобной верстки и расположения элементов любых видов и размеров.",
+	"main": "css/main.css",
+	"var": "stable",
 	"scripts": {
 		"start": "npm-run-all sass:watch",
 		"sass:compile": "sass src/sass/:assets/css --style compressed",
-		"sass:watch": "sass --watch src/sass/:assets/css",
+		"sass:watch": "sass --watch .",
 		"sass:watch-compressed": "sass --watch src/sass/:assets/css --style compressed",
 		"editorconfig": "editorconfig-checker"
 	},
